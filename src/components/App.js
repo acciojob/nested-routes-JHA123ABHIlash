@@ -6,7 +6,7 @@ import Women from "./Women";
 
 const App = () => {
   return (
-    <div>
+    <main>
      <div>
        <nav>
         <ul>
@@ -26,7 +26,7 @@ const App = () => {
         <Route path="/women" component={Women}></Route>
       </Switch>
       </div>
-    </div>
+    </main>
   );
 };
 

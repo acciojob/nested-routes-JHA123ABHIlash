@@ -37,7 +37,7 @@ export default function Women() {
       <div>
         <Switch>
         <Route exact path={`${path}/grooming`} component={Grooming} />
-        <Route path={`${path}/shirt`} component={Shirt} />
+        <Route path={`${path}/Shirt`} component={Shirt} />
         <Route path={`${path}/trouser`} component={Trouser} />
         <Route path={`${path}/jewellery`} component={Jewellery} />
       </Switch>

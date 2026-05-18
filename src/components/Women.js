@@ -10,7 +10,8 @@ export default function Women() {
 
   return (
     <div>
-      <nav>
+      <div>
+        <nav>
         <ul>
           <li>
             <Link to={`${url}/grooming`}>Grooming</Link>
@@ -29,15 +30,18 @@ export default function Women() {
           </li>
         </ul>
       </nav>
+      </div>
 
       <p>Women Items:</p>
 
-      <Switch>
+      <div>
+        <Switch>
         <Route exact path={`${path}/grooming`} component={Grooming} />
         <Route path={`${path}/shirt`} component={Shirt} />
         <Route path={`${path}/trouser`} component={Trouser} />
         <Route path={`${path}/jewellery`} component={Jewellery} />
       </Switch>
+      </div>
     </div>
   );
 }
